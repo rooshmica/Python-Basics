@@ -7,6 +7,7 @@ while True:
 	print("3.Uptime")
 	choice = int(input("Enter your choice of 0 to quit: ")	)
 	
+	
 	if choice == 0:
 		break
 		
