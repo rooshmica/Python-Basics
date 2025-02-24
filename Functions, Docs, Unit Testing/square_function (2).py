@@ -1,0 +1,13 @@
+def square(number):
+    return number * number
+
+# this is the test function
+def test_square():
+    assert square(5) == 25
+    assert square(0) == 0
+    assert square(-5) == 25
+
+# Rename the file as test_square_function.py (if it doesn't already exist)
+# On the command-line, run the command: pytest test_square_function.py
+
+
